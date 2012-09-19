@@ -1,0 +1,8 @@
+.rvmrc
+.sass-cache/
+*.swp
+**/*.swp
+*.swo
+**/*.swo
+_site/
+

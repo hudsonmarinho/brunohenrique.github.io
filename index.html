@@ -1,0 +1,14 @@
+---
+layout: default
+title: Garulab
+---
+{% for post in site.posts %}
+    <article class="post">
+        <header class="post-header">
+            <h2 class="title">{{ post.title }}</h2>
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>{{ post.date | date:"%Y.%m.%d" }}</time>
+        </header>
+        {{ post.content | replace: "more start -->","" | replace: "<!-- more end ","" }}
+        <div><a href="{{ post.url }}">→ Read more</a></div>
+    </article>
+{% endfor %}
