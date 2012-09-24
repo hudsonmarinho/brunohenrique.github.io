@@ -225,6 +225,11 @@ code {
   margin: 0 20px 10px 0;
 }
 
+/* line 49, ../../sass/class.scss */
+.archive {
+  font-size: 25px;
+}
+
 @font-face {
   font-family: 'PTSansNarrowBold';
   src: url("../fonts/pt_sans-narrow-web-bold-webfont.eot");
@@ -265,38 +270,50 @@ body {
 /* line 22, ../../sass/style.scss */
 body a, body:visited {
   text-decoration: none;
+  color: #335458;
   font-family: PTSansNarrow;
 }
-/* line 27, ../../sass/style.scss */
+/* line 28, ../../sass/style.scss */
 body a:hover, body:visited:hover {
-  color: #93e1ec;
+  color: #4f797e;
 }
 /* line 32, ../../sass/style.scss */
+body h2 {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+/* line 39, ../../sass/style.scss */
 body header {
   width: 960px;
   min-height: 80px;
   margin: 0 0 50px 0;
 }
-/* line 36, ../../sass/style.scss */
+/* line 43, ../../sass/style.scss */
 body header section {
-  width: 192px;
-  font-family: PTSansNarrow;
-  font-weight: bold;
+  width: 215px;
+  height: 72px;
+  line-height: 80px;
+  font-family: PTSansNarrowBold;
   font-size: 70px;
 }
-/* line 43, ../../sass/style.scss */
+/* line 51, ../../sass/style.scss */
 body header section h1 {
-  line-height: 80px;
+  background: url(../images/logo.png) right no-repeat;
 }
-/* line 48, ../../sass/style.scss */
+/* line 53, ../../sass/style.scss */
+body header section h1 span {
+  display: inline-block;
+  height: 72px;
+}
+/* line 60, ../../sass/style.scss */
 body header nav ul {
   line-height: 80px;
 }
-/* line 50, ../../sass/style.scss */
+/* line 62, ../../sass/style.scss */
 body header nav ul li {
   display: inline;
 }
-/* line 52, ../../sass/style.scss */
+/* line 64, ../../sass/style.scss */
 body header nav ul li a, body header nav ul li:visited {
   padding: 10px 20px;
   color: #335458;
@@ -313,26 +330,26 @@ body header nav ul li a, body header nav ul li:visited {
   transition: all 1s;
   transition: all 1s ease-in-out;
 }
-/* line 65, ../../sass/style.scss */
+/* line 77, ../../sass/style.scss */
 body header nav ul li a:hover, body header nav ul li:visited:hover {
   color: #93e1ec;
   background: #335458;
 }
-/* line 76, ../../sass/style.scss */
+/* line 88, ../../sass/style.scss */
 body section article p {
   text-indent: 40px;
   line-height: 27px;
   font-size: 20px;
 }
-/* line 83, ../../sass/style.scss */
+/* line 95, ../../sass/style.scss */
 body section article a {
   color: #333333;
 }
-/* line 85, ../../sass/style.scss */
+/* line 97, ../../sass/style.scss */
 body section article a:hover {
   color: #335458;
 }
-/* line 90, ../../sass/style.scss */
+/* line 102, ../../sass/style.scss */
 body section article header time {
   font-size: 20px;
 }

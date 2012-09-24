@@ -7,6 +7,8 @@ categories: recursos priorização pt
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lacus dui, a ultrices lectus. Sed vitae odio et lectus pulvinar ultrices. Mauris commodo luctus mattis. Sed eu magna eu velit lobortis luctus non facilisis dui. Vivamus consectetur adipiscing odio, sit amet commodo dui posuere porta. Aenean porta velit quis lorem egestas quis feugiat augue vehicula. Etiam purus neque, imperdiet eu blandit id, venenatis eget neque. Nullam lobortis nibh nec felis commodo euismod quis congue tortor. Praesent dapibus malesuada convallis.
 
+<!-- more start -->
+
 Nunc ac risus eu lacus gravida facilisis. Proin mattis tellus sit amet leo iaculis at eleifend urna pulvinar. Fusce ullamcorper pharetra luctus. Ut massa lorem, lacinia elementum accumsan sed, lobortis sit amet turpis. Sed tellus massa, ullamcorper eu convallis quis, gravida a ipsum. Nulla eget rhoncus velit. Integer et tortor nunc. Phasellus nisl elit, suscipit sed egestas elementum, interdum sed diam.
 
 Donec commodo gravida odio, quis dapibus risus porta rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus erat urna, hendrerit nec dignissim eu, condimentum vel est. Aenean mattis, est eget eleifend suscipit, enim est tempor nisi, nec gravida lacus felis non nibh. Curabitur aliquam dictum sapien non ultricies. Etiam tincidunt blandit velit quis eleifend. Integer consectetur nisl non est lobortis et malesuada arcu volutpat. Maecenas faucibus odio eu sapien eleifend a varius mauris dapibus. Nullam ac ornare ante. Aliquam quis magna sed erat sodales commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean consectetur, libero a semper tristique, eros metus varius ipsum, ut volutpat odio nulla id lacus. Duis a quam sit amet lectus volutpat commodo et quis augue. Morbi vitae leo vel nulla imperdiet feugiat nec hendrerit tellus.
@@ -15,7 +17,6 @@ Integer vitae lacus et libero tincidunt lacinia nec sit amet mi. Vestibulum ultr
 
 Nullam semper lacus enim. Fusce molestie ipsum semper dui vulputate vitae vulputate diam molestie. Vivamus pulvinar sem non turpis commodo a fermentum orci posuere. Nullam quis leo venenatis velit varius mattis non sed nulla. Cras pulvinar semper lorem eget scelerisque. Aliquam tempor tempor risus, id bibendum orci blandit vel. Nulla facilisi. Phasellus vitae pharetra magna. Integer in rutrum tellus. Donec molestie, felis sed auctor fringilla, nisl sapien laoreet purus, eget placerat diam dui quis nunc. Nulla facilisi. Vivamus dictum nulla ac neque molestie eu commodo lacus convallis.
 
-<!-- more start -->
 
 **Limitações são libertadoras.**
 {% highlight ruby linenos %}

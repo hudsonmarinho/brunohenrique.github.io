@@ -15,5 +15,3 @@ task :preview do
   [jekyllPid, comapssPid, guardPid, rackupPid].each { |pid| Process.wait(pid) }
 end
 
-task :github_config do
-end
