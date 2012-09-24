@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Blog &lt; MyMind</title>
+ <link href="http://garulab.com/atom.xml" rel="self"/>
+ <link href="http://garulab.com.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://garulab.com/</id>
+ <author>
+   <name>Bruno Henrique - Garu</name>
+   <email>contact@garulab.com</email>
+ </author>
+ {% for post in site.posts %}
+   <entry>
+     <title>{{ post.title }}</title>
+     <link href="http://garulab.com{{ post.url }}"/>
+     <updated>{{ post.date | date_to_xmlschema }}</updated>
+     <id>http://garulab.com{{ post.id }}</id>
+     <content type="html">{{ post.content | xml_escape }}</content>
+   </entry>
+ {% endfor %}
+</feed>
