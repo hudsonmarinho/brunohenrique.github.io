@@ -18,7 +18,10 @@ $cyan   :  #2aa198;
 $green  :  #859900;
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font: {
+    family: 'Bitstream Vera Sans Mono', Menlo, Monaco,"Andale Mono","lucida console","Courier";
+    size: 12px;
+  }
 }
 .lineno {
   margin: 0 5px 0 0;
@@ -30,7 +33,7 @@ code {
 
 .highlight {
   color:             $base0      !important;
-  background-color:  $base03     !important;
+  background:  $base03 url(../images/noise.png) !important;
   margin: 10px 0 10px 0;
   padding: 10px 5px;
 
@@ -150,10 +153,7 @@ code {
   .k, .kc, .kd, .kp, .kr, .kt, .o, .ow {
     font-weight: bold            !important;
   }
-
-  .k {
-    color: $green                !important;
-  }
+  .k { color: #CB4B16 !important; font-weight: bold } /* Keyword */
 
   // keyword ??
   .kt {
