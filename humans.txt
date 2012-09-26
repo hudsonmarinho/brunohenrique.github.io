@@ -3,13 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+Bruno Henrique - Garu
+Position: Software developer
+Site: http://garulab.com
+Email: squall.bruno@gmail.com
+Twitter: @GaruHenr
+Location: Natal, RN
