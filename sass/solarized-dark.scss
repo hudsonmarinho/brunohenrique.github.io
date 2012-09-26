@@ -151,9 +151,12 @@ code {
 
   // keywords, symbols
   .k, .kc, .kd, .kp, .kr, .kt, .o, .ow {
-    font-weight: bold            !important;
+    color: $orange !important; /* Keyword.Pseudo */
+    font-weight: bold !important;
   }
-  .k { color: #CB4B16 !important; font-weight: bold } /* Keyword */
+  .o { color: #93A1A1 !important; font-weight: bold } /* Operator */
+  .k { color: $orange !important; font-weight: bold } /* Keyword */
+  .n {color: #268BD2 !important;}
 
   // keyword ??
   .kt {
@@ -204,8 +207,8 @@ code {
   .ne, // ??
   .nf  // CSS id rule
   {
-    color:        $red           !important;
-    font-weight:  bold           !important;
+    color: $blue !important;
+    font-weight: bold !important;
   }
 }
 

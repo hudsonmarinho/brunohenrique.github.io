@@ -20,27 +20,49 @@ Nullam semper lacus enim. Fusce molestie ipsum semper dui vulputate vitae vulput
 
 **Limitações são libertadoras.**
 {% highlight ruby linenos %}
-## PayRoll gem
+# -*- encoding : utf-8 -*-
+require File.expand_path('../boot', __FILE__)
 
-# lib/pay_roll.rb
-module PayRoll
-  class << self
-    attr_accessor :employee_directory
-      def config
-        yield self
-      end
-    end
+require 'rails/all'
+
+if defined?(Bundler)
+  Bundler.require *Rails.groups(:assets => %w(development test))
+end
+
+module Ccms
+  class Application < Rails::Application
+    
+    config.time_zone = 'Eastern Time (US & Canada)'
+
+    # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
+    #config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
+    config.i18n.default_locale = :fr
+
+    # JavaScript files you want as :defaults (application.js is always included).
+    # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
+
+    # Configure the default encoding used in templates for Ruby 1.9.
+    config.encoding = "utf-8"
+
+    # Configure sensitive parameters which will be filtered from the log file.
+    config.filter_parameters += [:password]
+    
+    config.active_record.timestamped_migrations = false
+    
+    # Enable the asset pipeline
+    config.assets.enabled = true
+    
+    # Version of your assets, change this if you want to expire all your assets
+    config.assets.version = '1.0'
+    
+    # Change the path that assets are served from
+    config.assets.prefix = "/assets"
+    
+   
+    
   end
 end
 
-# lib/pay_roll/services/pay_day_service.rb
-class PayRoll::PayDayService
-  def initialize(date=Date.now)
-    @date = date
-
-    @employees = PayRoll.employee_directory.active
-    @employees.each { |e| e.extend(Payable) }
-  end
 {% endhighlight %}
 
 {% highlight javascript linenos %}

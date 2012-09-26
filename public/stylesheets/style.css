@@ -17,6 +17,7 @@ code {
   background: #002b36 url(../images/noise.png) !important;
   margin: 10px 0 10px 0;
   padding: 10px 5px;
+  /* Operator */
   /* Keyword */
 }
 /* line 41, ../../sass/solarized-dark.scss */
@@ -112,55 +113,66 @@ code {
 }
 /* line 153, ../../sass/solarized-dark.scss */
 .highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .o, .highlight .ow {
-  font-weight: bold            !important;
+  color: #cb4b16 !important;
+  /* Keyword.Pseudo */
+  font-weight: bold !important;
 }
-/* line 156, ../../sass/solarized-dark.scss */
+/* line 157, ../../sass/solarized-dark.scss */
+.highlight .o {
+  color: #93A1A1 !important;
+  font-weight: bold;
+}
+/* line 158, ../../sass/solarized-dark.scss */
 .highlight .k {
-  color: #CB4B16 !important;
+  color: #cb4b16 !important;
   font-weight: bold;
 }
 /* line 159, ../../sass/solarized-dark.scss */
+.highlight .n {
+  color: #268BD2 !important;
+}
+/* line 162, ../../sass/solarized-dark.scss */
 .highlight .kt {
   color: #b58900 !important;
 }
-/* line 164, ../../sass/solarized-dark.scss */
+/* line 167, ../../sass/solarized-dark.scss */
 .highlight .bp {
   color: #93a1a1 !important;
 }
-/* line 169, ../../sass/solarized-dark.scss */
+/* line 172, ../../sass/solarized-dark.scss */
 .highlight .nn {
   color: #93a1a1 !important;
 }
-/* line 174, ../../sass/solarized-dark.scss */
+/* line 177, ../../sass/solarized-dark.scss */
 .highlight .nc {
   color: #b58900 !important;
   font-weight: bold           !important;
 }
-/* line 180, ../../sass/solarized-dark.scss */
+/* line 183, ../../sass/solarized-dark.scss */
 .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il {
   color: #2aa198 !important;
 }
-/* line 185, ../../sass/solarized-dark.scss */
+/* line 188, ../../sass/solarized-dark.scss */
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .s1 {
   color: #2aa198 !important;
 }
-/* line 190, ../../sass/solarized-dark.scss */
+/* line 193, ../../sass/solarized-dark.scss */
 .highlight .na, .highlight .nv {
   color: #2aa198 !important;
 }
-/* line 195, ../../sass/solarized-dark.scss */
+/* line 198, ../../sass/solarized-dark.scss */
 .highlight .no {
   color: #b58900 !important;
 }
-/* line 200, ../../sass/solarized-dark.scss */
+/* line 203, ../../sass/solarized-dark.scss */
 .highlight .vc, .highlight .vg, .highlight .vi {
   color: #268bd2 !important;
 }
-/* line 206, ../../sass/solarized-dark.scss */
+/* line 209, ../../sass/solarized-dark.scss */
 .highlight .ne,
 .highlight .nf {
-  color: #dc322f !important;
-  font-weight: bold           !important;
+  color: #268bd2 !important;
+  font-weight: bold !important;
 }
 
 /* line 3, ../../sass/class.scss */
