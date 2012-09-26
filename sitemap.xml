@@ -1,0 +1,24 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+  <url>
+    <loc>http://garulab.com{{ post.url }}</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>http://garulab.com/</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+  </url>
+  <url>
+    <loc>http://garulab.com/about/index.html</loc>
+    <lastmod>2012-09-26</lastmod>
+  </url>
+  <url>
+    <loc>http://garulab.com/articles/index.html</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
+  </url>
+</urlset>
