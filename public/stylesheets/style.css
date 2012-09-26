@@ -294,12 +294,12 @@ body {
 /* line 22, ../../sass/style.scss */
 body a, body:visited {
   text-decoration: none;
-  color: #335458;
+  color: #333;
   font-family: PTSansNarrow;
 }
 /* line 28, ../../sass/style.scss */
 body a:hover, body:visited:hover {
-  color: #4f797e;
+  color: #fff;
 }
 /* line 32, ../../sass/style.scss */
 body h2 {
@@ -376,6 +376,28 @@ body section article a:hover {
 /* line 102, ../../sass/style.scss */
 body section article header time {
   font-size: 20px;
+}
+/* line 110, ../../sass/style.scss */
+body #about {
+  margin: 0 0 10px 0;
+}
+/* line 112, ../../sass/style.scss */
+body #about figure {
+  margin: 0 30px 10px 0;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+  border-radius: 80px;
+}
+/* line 115, ../../sass/style.scss */
+body #about figure img {
+  border: 5px #fff solid;
+}
+/* line 120, ../../sass/style.scss */
+body #about div p {
+  line-height: 35px;
+  font-size: 30px;
 }
 
 /* line 1, ../../sass/embed.scss */

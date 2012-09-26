@@ -21,12 +21,12 @@ body {
 
   a, &:visited {
     text-decoration: none;
-    color: $colorDefault;
+    color: #333;
     font: {
       family: $fontDefault;
     }
     &:hover {
-      color: $colorLinks;
+      color: #fff;
     }
   }
   h2 {
@@ -103,6 +103,24 @@ body {
           font: {
             size: 20px;
           }
+        }
+      }
+    }
+  }
+  #about {
+    margin: 0 0 10px 0;
+    figure {
+      margin: 0 30px 10px 0;
+      @include border-radius(80px);
+      img {
+        border: 5px #fff solid;
+      }
+    }
+    div {
+      p {
+        line-height: 35px;
+        font: {
+          size: 30px;
         }
       }
     }
