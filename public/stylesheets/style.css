@@ -169,11 +169,15 @@ code {
 .highlight .no {
   color: #b58900 !important;
 }
-/* line 204, ../../sass/solarized-dark.scss */
+/* line 202, ../../sass/solarized-dark.scss */
+.highlight .nd {
+  color: #2aa198 !important;
+}
+/* line 207, ../../sass/solarized-dark.scss */
 .highlight .vc, .highlight .vg, .highlight .vi {
   color: #268bd2 !important;
 }
-/* line 210, ../../sass/solarized-dark.scss */
+/* line 213, ../../sass/solarized-dark.scss */
 .highlight .ne,
 .highlight .nf {
   color: #268bd2 !important;

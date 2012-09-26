@@ -8,7 +8,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend diam ut 
 <!-- more start -->
 Vivamus lorem ipsum, mollis quis varius at, laoreet vitae tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla vitae orci id tortor vehicula mollis viverra ullamcorper justo. Aenean dolor magna, mattis ac posuere nec, adipiscing nec quam. Aliquam mi leo, porta ut cursus ac, porttitor bibendum nunc. Duis ornare justo non mauris vulputate hendrerit iaculis ante tempor. Etiam sed mi sit amet elit pellentesque pretium eget vitae velit. Maecenas a ante lectus, placerat pretium neque. Praesent adipiscing elit at turpis lobortis sed posuere dui convallis. Morbi velit dui, placerat vitae scelerisque porta, pulvinar eget turpis.
 
-<script src="https://gist.github.com/3757516.js?file="> </script>
+{% highlight ruby linenos %}
+require 'sinatra'
+require 'nokogiri'
+require 'open-uri'
+require 'json'
+
+post '/search' do
+    url_search = params[:urlSearch]
+    page = Nokogiri::HTML(open(url_search))
+    crawler_return = []
+    page.xpath('//img').each do |node|
+        crawler_return << node.to_html
+    end
+    crawler_return.to_json
+end
+
+{% endhighlight %}
 Nullam non augue quam. Morbi lacinia, metus et posuere tristique, metus nulla dignissim leo, a rhoncus quam augue et nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce metus dui, rutrum ut commodo in, fringilla id purus. Nunc sed mauris enim. Aliquam id turpis magna, et blandit justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis risus, malesuada nec tincidunt nec, lobortis sed eros.
 
 Nulla quis velit eu leo aliquet facilisis sed non massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat erat in neque congue aliquet. Nunc sem risus, iaculis tempor iaculis commodo, consectetur a nisl. Pellentesque eget sodales ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quam nunc, scelerisque eget rhoncus vitae, ultricies nec tellus. Duis adipiscing dapibus sem, in tristique enim euismod in.
