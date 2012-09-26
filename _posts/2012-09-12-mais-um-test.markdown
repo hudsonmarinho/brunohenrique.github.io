@@ -25,6 +25,10 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
+def hello(name)
+  "Hello #{name}"
+end
+
 if defined?(Bundler)
   Bundler.require *Rails.groups(:assets => %w(development test))
 end

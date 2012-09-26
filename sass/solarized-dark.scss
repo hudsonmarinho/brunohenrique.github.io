@@ -36,6 +36,7 @@ code {
   background:  $base03 url(../images/noise.png) !important;
   margin: 10px 0 10px 0;
   padding: 10px 5px;
+  @include border-radius;
 
   // error
   .err {

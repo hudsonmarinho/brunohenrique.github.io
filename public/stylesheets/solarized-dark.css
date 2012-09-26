@@ -1,176 +1,83 @@
-/* line 20, ../../sass/solarized-dark.scss */
-code {
-  font-family: 'Bitstream Vera Sans Mono', Menlo, Monaco,"Andale Mono","lucida console","Courier";
-  font-size: 12px;
-}
+/*
+Syntax error: Undefined mixin 'border-radius'.
+        on line 39 of /home/garu/workspace/ruby/myBlog/sass/solarized-dark.scss, in `border-radius'
+        from line 39 of /home/garu/workspace/ruby/myBlog/sass/solarized-dark.scss
 
-/* line 26, ../../sass/solarized-dark.scss */
-.lineno {
-  margin: 0 5px 0 0;
-  padding-right: 5px;
-  border-right: 1px solid #2aa198;
-}
-
-/* line 34, ../../sass/solarized-dark.scss */
-.highlight {
-  color: #839496 !important;
-  background: #002b36 url(../images/noise.png) !important;
-  margin: 10px 0 10px 0;
-  padding: 10px 5px;
-  /* Operator */
-  /* Keyword */
-}
-/* line 41, ../../sass/solarized-dark.scss */
-.highlight .err {
-  color: #dc322f !important;
-  background-color: #073642 !important;
-}
-/* line 47, ../../sass/solarized-dark.scss */
-.highlight .cp {
-  color: #586e75 !important;
-  font-weight: bold           !important;
-}
-/* line 53, ../../sass/solarized-dark.scss */
-.highlight .cs {
-  color: #586e75 !important;
-  font-weight: bold           !important;
-  font-style: italic         !important;
-}
-/* line 60, ../../sass/solarized-dark.scss */
-.highlight .gd {
-  color: #839496 !important;
-  background-color: #fdd      !important;
-}
-/* line 66, ../../sass/solarized-dark.scss */
-.highlight .gd .x {
-  background-color: #faa       !important;
-}
-/* line 71, ../../sass/solarized-dark.scss */
-.highlight .ge {
-  font-style: italic           !important;
-}
-/* line 76, ../../sass/solarized-dark.scss */
-.highlight .gi {
-  background-color: #dfd       !important;
-}
-/* line 81, ../../sass/solarized-dark.scss */
-.highlight .gi .x {
-  background-color: #afa       !important;
-}
-/* line 86, ../../sass/solarized-dark.scss */
-.highlight .go {
-  color: #839496 !important;
-}
-/* line 91, ../../sass/solarized-dark.scss */
-.highlight .gu {
-  color: #d33682 !important;
-  font-weight: bold           !important;
-}
-/* line 97, ../../sass/solarized-dark.scss */
-.highlight .gs {
-  font-weight: bold            !important;
-}
-/* line 102, ../../sass/solarized-dark.scss */
-.highlight .gr, .highlight .gt {
-  color: #d33682 !important;
-}
-/* line 107, ../../sass/solarized-dark.scss */
-.highlight .gh {
-  color: #586e75 !important;
-}
-/* line 112, ../../sass/solarized-dark.scss */
-.highlight .gp {
-  color: #586e75 !important;
-}
-/* line 117, ../../sass/solarized-dark.scss */
-.highlight .nb {
-  color: #859900 !important;
-}
-/* line 122, ../../sass/solarized-dark.scss */
-.highlight .ni {
-  color: #d33682 !important;
-}
-/* line 127, ../../sass/solarized-dark.scss */
-.highlight .nt {
-  color: #268bd2 !important;
-}
-/* line 132, ../../sass/solarized-dark.scss */
-.highlight .w {
-  color: #586e75 !important;
-}
-/* line 137, ../../sass/solarized-dark.scss */
-.highlight .sr {
-  color: #859900 !important;
-}
-/* line 142, ../../sass/solarized-dark.scss */
-.highlight .ss {
-  color: #2aa198 !important;
-}
-/* line 147, ../../sass/solarized-dark.scss */
-.highlight .c, .highlight .cm, .highlight .c1 {
-  color: #586e75 !important;
-  font-style: italic            !important;
-}
-/* line 153, ../../sass/solarized-dark.scss */
-.highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .o, .highlight .ow {
-  color: #cb4b16 !important;
-  /* Keyword.Pseudo */
-  font-weight: bold !important;
-}
-/* line 157, ../../sass/solarized-dark.scss */
-.highlight .o {
-  color: #93A1A1 !important;
-  font-weight: bold;
-}
-/* line 158, ../../sass/solarized-dark.scss */
-.highlight .k {
-  color: #cb4b16 !important;
-  font-weight: bold;
-}
-/* line 159, ../../sass/solarized-dark.scss */
-.highlight .n {
-  color: #268BD2 !important;
-}
-/* line 162, ../../sass/solarized-dark.scss */
-.highlight .kt {
-  color: #b58900 !important;
-}
-/* line 167, ../../sass/solarized-dark.scss */
-.highlight .bp {
-  color: #93a1a1 !important;
-}
-/* line 172, ../../sass/solarized-dark.scss */
-.highlight .nn {
-  color: #93a1a1 !important;
-}
-/* line 177, ../../sass/solarized-dark.scss */
-.highlight .nc {
-  color: #b58900 !important;
-  font-weight: bold           !important;
-}
-/* line 183, ../../sass/solarized-dark.scss */
-.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il {
-  color: #2aa198 !important;
-}
-/* line 188, ../../sass/solarized-dark.scss */
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .s1 {
-  color: #2aa198 !important;
-}
-/* line 193, ../../sass/solarized-dark.scss */
-.highlight .na, .highlight .nv {
-  color: #2aa198 !important;
-}
-/* line 198, ../../sass/solarized-dark.scss */
-.highlight .no {
-  color: #b58900 !important;
-}
-/* line 203, ../../sass/solarized-dark.scss */
-.highlight .vc, .highlight .vg, .highlight .vi {
-  color: #268bd2 !important;
-}
-/* line 209, ../../sass/solarized-dark.scss */
-.highlight .ne,
-.highlight .nf {
-  color: #268bd2 !important;
-  font-weight: bold !important;
-}
+Backtrace:
+/home/garu/workspace/ruby/myBlog/sass/solarized-dark.scss:39:in `border-radius'
+/home/garu/workspace/ruby/myBlog/sass/solarized-dark.scss:39
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:249:in `visit_mixin'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:316:in `visit_rule'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/path.rb:31:in `create'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/state/directory.rb:26:in `block in created'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/state/directory.rb:25:in `each'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/state/directory.rb:25:in `created'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/state/directory.rb:17:in `refresh'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/backends/inotify.rb:12:in `block in add_handler'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `call'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:200:in `block in watch'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `[]'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/watcher.rb:41:in `callback!'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/event.rb:128:in `callback!'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `block in process'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `each'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:233:in `process'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/rb-inotify-0.8.8/lib/rb-inotify/notifier.rb:216:in `run'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/backends/inotify.rb:20:in `run'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/bin/compass:23:in `load'
+/home/garu/.rvm/gems/ruby-1.9.3-p194@garulab/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 39 of /home/garu/workspace/ruby/myBlog/sass/solarized-dark.scss, in `border-radius'\A         from line 39 of /home/garu/workspace/ruby/myBlog/sass/solarized-dark.scss"; }
