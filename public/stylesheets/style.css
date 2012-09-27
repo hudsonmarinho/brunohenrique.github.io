@@ -294,7 +294,7 @@ body {
 /* line 22, ../../sass/style.scss */
 body a, body:visited {
   text-decoration: none;
-  color: #333;
+  color: #333333;
   font-family: PTSansNarrow;
 }
 /* line 28, ../../sass/style.scss */
@@ -340,7 +340,7 @@ body header nav ul li {
 /* line 64, ../../sass/style.scss */
 body header nav ul li a, body header nav ul li:visited {
   padding: 10px 20px;
-  color: #335458;
+  color: #333333;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -360,28 +360,44 @@ body header nav ul li a:hover, body header nav ul li:visited:hover {
   background: #335458;
 }
 /* line 88, ../../sass/style.scss */
+body section article h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* line 95, ../../sass/style.scss */
+body section article table {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+/* line 99, ../../sass/style.scss */
+body section article table td {
+  padding: 5px;
+}
+/* line 104, ../../sass/style.scss */
 body section article p {
+  margin-bottom: 15px;
   text-indent: 40px;
   line-height: 27px;
   font-size: 20px;
 }
-/* line 95, ../../sass/style.scss */
+/* line 112, ../../sass/style.scss */
 body section article a {
   color: #333333;
 }
-/* line 97, ../../sass/style.scss */
+/* line 114, ../../sass/style.scss */
 body section article a:hover {
   color: #335458;
 }
-/* line 102, ../../sass/style.scss */
+/* line 119, ../../sass/style.scss */
 body section article header time {
   font-size: 20px;
 }
-/* line 110, ../../sass/style.scss */
+/* line 127, ../../sass/style.scss */
 body #about {
   margin: 0 0 10px 0;
 }
-/* line 112, ../../sass/style.scss */
+/* line 129, ../../sass/style.scss */
 body #about figure {
   margin: 0 30px 10px 0;
   -webkit-border-radius: 80px;
@@ -390,11 +406,11 @@ body #about figure {
   -o-border-radius: 80px;
   border-radius: 80px;
 }
-/* line 115, ../../sass/style.scss */
+/* line 132, ../../sass/style.scss */
 body #about figure img {
   border: 5px #fff solid;
 }
-/* line 120, ../../sass/style.scss */
+/* line 137, ../../sass/style.scss */
 body #about div p {
   line-height: 35px;
   font-size: 30px;

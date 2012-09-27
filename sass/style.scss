@@ -21,7 +21,7 @@ body {
 
   a, &:visited {
     text-decoration: none;
-    color: #333;
+    color: $colorTitle;
     font: {
       family: $fontDefault;
     }
@@ -63,7 +63,7 @@ body {
           display: inline;
           a, &:visited {
             padding: 10px 20px;
-            color: $colorDefault;
+            color: $colorTitle;
             @include border-radius;
             font: {
               size: 22px;
@@ -85,7 +85,24 @@ body {
   }
   section {
     article{
+      h3 {
+        margin-bottom: 15px;
+        font: {
+          size: 22px;
+          weight: bold;
+        }
+      }
+      table {
+        font: {
+          size: 20px;
+        }
+        td {
+          padding: 5px;
+        }
+        margin-bottom: 15px;
+      }
       p {
+        margin-bottom: 15px;
         text-indent: 40px;
         line-height: 27px;
         font: {
