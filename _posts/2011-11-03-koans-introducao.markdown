@@ -23,7 +23,8 @@ Este formato era bem mais simples de ser seguido, isso então forneceu uma base 
 Pretendo fazer  mais alguns posts mostrando o koans na prática, comecei com esse porque não queria começar a falar de uma coisa sem antes falar um pouco de suas origens.Esse post contem alguns resumos de meus estudos e algumas traduções de artigos sobre o assunto.
 Abordarei os koans em algumas linguagens (ruby, javascript e python), mas saiba que esse mesmo conceito se aplica as outras linguagens.
 
->We are what we think. All that we are arises with our thoughts. With our thoughts, we make our world. “Buda”
+>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make our world." - Buda
+
 
 referências: [http://sett.ociweb.com/](http://sett.ociweb.com/), [http://www.clinicacomciencia.com/](http://www.clinicacomciencia.com/)
 <!-- end more -->
