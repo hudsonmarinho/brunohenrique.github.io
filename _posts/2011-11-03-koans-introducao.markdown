@@ -24,7 +24,5 @@ Pretendo fazer  mais alguns posts mostrando o koans na prática, comecei com ess
 Abordarei os koans em algumas linguagens (ruby, javascript e python), mas saiba que esse mesmo conceito se aplica as outras linguagens.
 
 >"We are what we think. All that we are arises with our thoughts. With our thoughts, we make our world." - Buda
-
-
 referências: [http://sett.ociweb.com/](http://sett.ociweb.com/), [http://www.clinicacomciencia.com/](http://www.clinicacomciencia.com/)
 <!-- end more -->
