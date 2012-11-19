@@ -26,7 +26,7 @@ body {
       family: $fontDefault;
     }
     &:hover {
-      color: #fff;
+      color: $colorHover;
     }
   }
   h2 {
@@ -49,7 +49,7 @@ body {
         size: 70px;
       }
       h1 {
-        background: url(../images/logo.png) right no-repeat;
+        background: url(../images/logo-black.png) right no-repeat;
         span {
           display: inline-block;
           height: 72px;
@@ -112,7 +112,7 @@ body {
       a {
         color: $colorTitle;
         &:hover {
-          color: $colorDefault;
+          color: $colorHover;
         }
       }
       header {
