@@ -4,8 +4,7 @@ title: Git - Mudando autor de um commit
 date: 2012-11-19
 categories: git dica pt
 ---
-As vezes por acidente podemos fazer um commit em nome de outra pessoa, o user.name e user.email podem está com configurações inesperadas ou você pode está no computador de outra pessoa e etc, se por algum motivo algum commit estiver com o autor errado, você pode mudar isso.
-
+Ás vezes, por acidente, podemos fazer um commit em nome de outra pessoa, o user.name e user.email podem estar com configurações inesperadas ou você pode estar no computador de outra pessoa e etc, se por algum motivo algum commit estiver com o autor errado, você pode mudar isso.
 <!-- more start -->
 {% highlight bash linenos %}
 ➜  git log
