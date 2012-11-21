@@ -1,16 +1,16 @@
 @import "compass/css3/border-radius";
-@import "solarized-dark";
+@import "solarized-custom";
 @import "class";
 @import "fonts";
 
 ::selection {
-    background: $colorBg;
+    background: $colorDefault;
 }
 ::-webkit-selection {
-    background: $colorBg;
+    background: $colorDefault;
 }
 ::-moz-selection {
-    background: $colorBg;
+    background: $colorDefault;
 }
 body {
   background: $colorBg;
@@ -49,7 +49,7 @@ body {
         size: 70px;
       }
       h1 {
-        background: url(../images/logo-black.png) right no-repeat;
+        background: url(../images/logo-red.png) right no-repeat;
         span {
           display: inline-block;
           height: 72px;
