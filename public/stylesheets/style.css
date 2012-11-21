@@ -1,20 +1,20 @@
-/* line 20, ../../sass/solarized-dark.scss */
+/* line 20, ../../sass/solarized-custom.scss */
 code {
   font-family: 'Bitstream Vera Sans Mono', Menlo, Monaco,"Andale Mono","lucida console","Courier";
   font-size: 12px;
 }
 
-/* line 26, ../../sass/solarized-dark.scss */
+/* line 26, ../../sass/solarized-custom.scss */
 .lineno {
   margin: 0 5px 0 0;
   padding-right: 5px;
   border-right: 1px solid #2aa198;
 }
 
-/* line 34, ../../sass/solarized-dark.scss */
+/* line 34, ../../sass/solarized-custom.scss */
 .highlight {
   color: #839496 !important;
-  background: #002b36 url(../images/noise.png) !important;
+  background: #191919 url(../images/noise.png) !important;
   margin: 10px 0 10px 0;
   padding: 10px 5px;
   -webkit-border-radius: 5px;
@@ -25,159 +25,159 @@ code {
   /* Operator */
   /* Keyword */
 }
-/* line 42, ../../sass/solarized-dark.scss */
+/* line 42, ../../sass/solarized-custom.scss */
 .highlight .err {
   color: #dc322f !important;
   background-color: #073642 !important;
 }
-/* line 48, ../../sass/solarized-dark.scss */
+/* line 48, ../../sass/solarized-custom.scss */
 .highlight .cp {
   color: #586e75 !important;
   font-weight: bold           !important;
 }
-/* line 54, ../../sass/solarized-dark.scss */
+/* line 54, ../../sass/solarized-custom.scss */
 .highlight .cs {
   color: #586e75 !important;
   font-weight: bold           !important;
   font-style: italic         !important;
 }
-/* line 61, ../../sass/solarized-dark.scss */
+/* line 61, ../../sass/solarized-custom.scss */
 .highlight .gd {
   color: #839496 !important;
   background-color: #fdd      !important;
 }
-/* line 67, ../../sass/solarized-dark.scss */
+/* line 67, ../../sass/solarized-custom.scss */
 .highlight .gd .x {
   background-color: #faa       !important;
 }
-/* line 72, ../../sass/solarized-dark.scss */
+/* line 72, ../../sass/solarized-custom.scss */
 .highlight .ge {
   font-style: italic           !important;
 }
-/* line 77, ../../sass/solarized-dark.scss */
+/* line 77, ../../sass/solarized-custom.scss */
 .highlight .gi {
   background-color: #dfd       !important;
 }
-/* line 82, ../../sass/solarized-dark.scss */
+/* line 82, ../../sass/solarized-custom.scss */
 .highlight .gi .x {
   background-color: #afa       !important;
 }
-/* line 87, ../../sass/solarized-dark.scss */
+/* line 87, ../../sass/solarized-custom.scss */
 .highlight .go {
   color: #839496 !important;
 }
-/* line 92, ../../sass/solarized-dark.scss */
+/* line 92, ../../sass/solarized-custom.scss */
 .highlight .gu {
   color: #d33682 !important;
   font-weight: bold           !important;
 }
-/* line 98, ../../sass/solarized-dark.scss */
+/* line 98, ../../sass/solarized-custom.scss */
 .highlight .gs {
   font-weight: bold            !important;
 }
-/* line 103, ../../sass/solarized-dark.scss */
+/* line 103, ../../sass/solarized-custom.scss */
 .highlight .gr, .highlight .gt {
   color: #d33682 !important;
 }
-/* line 108, ../../sass/solarized-dark.scss */
+/* line 108, ../../sass/solarized-custom.scss */
 .highlight .gh {
   color: #586e75 !important;
 }
-/* line 113, ../../sass/solarized-dark.scss */
+/* line 113, ../../sass/solarized-custom.scss */
 .highlight .gp {
   color: #586e75 !important;
 }
-/* line 118, ../../sass/solarized-dark.scss */
+/* line 118, ../../sass/solarized-custom.scss */
 .highlight .nb {
   color: #859900 !important;
 }
-/* line 123, ../../sass/solarized-dark.scss */
+/* line 123, ../../sass/solarized-custom.scss */
 .highlight .ni {
   color: #d33682 !important;
 }
-/* line 128, ../../sass/solarized-dark.scss */
+/* line 128, ../../sass/solarized-custom.scss */
 .highlight .nt {
   color: #268bd2 !important;
 }
-/* line 133, ../../sass/solarized-dark.scss */
+/* line 133, ../../sass/solarized-custom.scss */
 .highlight .w {
   color: #586e75 !important;
 }
-/* line 138, ../../sass/solarized-dark.scss */
+/* line 138, ../../sass/solarized-custom.scss */
 .highlight .sr {
   color: #859900 !important;
 }
-/* line 143, ../../sass/solarized-dark.scss */
+/* line 143, ../../sass/solarized-custom.scss */
 .highlight .ss {
   color: #2aa198 !important;
 }
-/* line 148, ../../sass/solarized-dark.scss */
+/* line 148, ../../sass/solarized-custom.scss */
 .highlight .c, .highlight .cm, .highlight .c1 {
   color: #586e75 !important;
   font-style: italic            !important;
 }
-/* line 154, ../../sass/solarized-dark.scss */
+/* line 154, ../../sass/solarized-custom.scss */
 .highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .kr, .highlight .kt, .highlight .o, .highlight .ow {
   color: #cb4b16 !important;
   /* Keyword.Pseudo */
   font-weight: bold !important;
 }
-/* line 158, ../../sass/solarized-dark.scss */
+/* line 158, ../../sass/solarized-custom.scss */
 .highlight .o {
   color: #93A1A1 !important;
   font-weight: bold;
 }
-/* line 159, ../../sass/solarized-dark.scss */
+/* line 159, ../../sass/solarized-custom.scss */
 .highlight .k {
   color: #cb4b16 !important;
   font-weight: bold;
 }
-/* line 160, ../../sass/solarized-dark.scss */
+/* line 160, ../../sass/solarized-custom.scss */
 .highlight .n {
   color: #268BD2 !important;
 }
-/* line 163, ../../sass/solarized-dark.scss */
+/* line 163, ../../sass/solarized-custom.scss */
 .highlight .kt {
   color: #b58900 !important;
 }
-/* line 168, ../../sass/solarized-dark.scss */
+/* line 168, ../../sass/solarized-custom.scss */
 .highlight .bp {
   color: #93a1a1 !important;
 }
-/* line 173, ../../sass/solarized-dark.scss */
+/* line 173, ../../sass/solarized-custom.scss */
 .highlight .nn {
   color: #93a1a1 !important;
 }
-/* line 178, ../../sass/solarized-dark.scss */
+/* line 178, ../../sass/solarized-custom.scss */
 .highlight .nc {
   color: #b58900 !important;
   font-weight: bold           !important;
 }
-/* line 184, ../../sass/solarized-dark.scss */
+/* line 184, ../../sass/solarized-custom.scss */
 .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .il {
   color: #2aa198 !important;
 }
-/* line 189, ../../sass/solarized-dark.scss */
+/* line 189, ../../sass/solarized-custom.scss */
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .s1 {
   color: #2aa198 !important;
 }
-/* line 194, ../../sass/solarized-dark.scss */
+/* line 194, ../../sass/solarized-custom.scss */
 .highlight .na, .highlight .nv {
   color: #2aa198 !important;
 }
-/* line 199, ../../sass/solarized-dark.scss */
+/* line 199, ../../sass/solarized-custom.scss */
 .highlight .no {
   color: #b58900 !important;
 }
-/* line 202, ../../sass/solarized-dark.scss */
+/* line 202, ../../sass/solarized-custom.scss */
 .highlight .nd {
   color: #2aa198 !important;
 }
-/* line 207, ../../sass/solarized-dark.scss */
+/* line 207, ../../sass/solarized-custom.scss */
 .highlight .vc, .highlight .vg, .highlight .vi {
   color: #268bd2 !important;
 }
-/* line 213, ../../sass/solarized-dark.scss */
+/* line 213, ../../sass/solarized-custom.scss */
 .highlight .ne,
 .highlight .nf {
   color: #268bd2 !important;
@@ -277,17 +277,17 @@ code {
 
 /* line 6, ../../sass/style.scss */
 ::selection {
-  background: #fdf6e3;
+  background: #191919;
 }
 
 /* line 9, ../../sass/style.scss */
 ::-webkit-selection {
-  background: #fdf6e3;
+  background: #191919;
 }
 
 /* line 12, ../../sass/style.scss */
 ::-moz-selection {
-  background: #fdf6e3;
+  background: #191919;
 }
 
 /* line 15, ../../sass/style.scss */

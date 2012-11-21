@@ -1,16 +1,16 @@
 @import "compass/css3/border-radius";
-@import "solarized-dark";
+@import "solarized-custom";
 @import "class";
 @import "fonts";
 
 ::selection {
-    background: $colorBg;
+    background: $colorDefault;
 }
 ::-webkit-selection {
-    background: $colorBg;
+    background: $colorDefault;
 }
 ::-moz-selection {
-    background: $colorBg;
+    background: $colorDefault;
 }
 body {
   background: $colorBg;
