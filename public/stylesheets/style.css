@@ -226,7 +226,7 @@ code {
   width: 960px;
   margin: 0 0 40px 0;
   padding: 0 0 40px 0;
-  border-bottom: 1px dotted #bf322f;
+  border-bottom: 1px dotted #e75151;
 }
 
 /* line 26, ../../sass/class.scss */
@@ -237,7 +237,7 @@ code {
 /* line 30, ../../sass/class.scss */
 .title {
   margin: 0 0 5px 0;
-  color: #bf322f;
+  color: #e75151;
   font-size: 40px;
 }
 
@@ -299,7 +299,7 @@ body {
 /* line 22, ../../sass/style.scss */
 body a, body:visited {
   text-decoration: none;
-  color: #bf322f;
+  color: #e75151;
   font-family: PTSansNarrow;
 }
 /* line 28, ../../sass/style.scss */
@@ -327,7 +327,7 @@ body header section {
 }
 /* line 51, ../../sass/style.scss */
 body header section h1 {
-  background: url(../images/logo-red.png) right no-repeat;
+  background: url(../images/logo.png) right no-repeat;
 }
 /* line 53, ../../sass/style.scss */
 body header section h1 span {
@@ -345,7 +345,7 @@ body header nav ul li {
 /* line 64, ../../sass/style.scss */
 body header nav ul li a, body header nav ul li:visited {
   padding: 10px 20px;
-  color: #bf322f;
+  color: #333333;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -362,7 +362,7 @@ body header nav ul li a, body header nav ul li:visited {
 /* line 77, ../../sass/style.scss */
 body header nav ul li a:hover, body header nav ul li:visited:hover {
   color: #fdf6e3;
-  background: #191919;
+  background: #e75151;
 }
 /* line 88, ../../sass/style.scss */
 body section article h3 {
@@ -388,7 +388,7 @@ body section article p {
 }
 /* line 112, ../../sass/style.scss */
 body section article a {
-  color: #bf322f;
+  color: #e75151;
 }
 /* line 114, ../../sass/style.scss */
 body section article a:hover {

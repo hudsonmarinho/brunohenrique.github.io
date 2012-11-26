@@ -49,7 +49,7 @@ body {
         size: 70px;
       }
       h1 {
-        background: url(../images/logo-red.png) right no-repeat;
+        background: url(../images/logo.png) right no-repeat;
         span {
           display: inline-block;
           height: 72px;
@@ -63,7 +63,7 @@ body {
           display: inline;
           a, &:visited {
             padding: 10px 20px;
-            color: $colorTitle;
+            color: $colorNav;
             @include border-radius;
             font: {
               size: 22px;
@@ -76,7 +76,7 @@ body {
             transition: all 1s ease-in-out;
             &:hover {
               color: $colorBg;
-              background: $colorDefault;
+              background: $colorTitle;
             }
           }
         }
