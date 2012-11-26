@@ -292,7 +292,7 @@ code {
 
 /* line 15, ../../sass/style.scss */
 body {
-  background: #fdf6e3;
+  background: #f8f8f8;
   color: #191919;
   font-family: PTSansNarrow;
 }
@@ -361,7 +361,7 @@ body header nav ul li a, body header nav ul li:visited {
 }
 /* line 77, ../../sass/style.scss */
 body header nav ul li a:hover, body header nav ul li:visited:hover {
-  color: #fdf6e3;
+  color: #f8f8f8;
   background: #e75151;
 }
 /* line 88, ../../sass/style.scss */
