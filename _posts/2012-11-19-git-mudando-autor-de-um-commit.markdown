@@ -6,6 +6,9 @@ categories: git dica pt
 ---
 Ás vezes, por acidente, podemos fazer um commit em nome de outra pessoa, o user.name e user.email podem estar com configurações inesperadas ou você pode estar no computador de outra pessoa e etc, se por algum motivo algum commit estiver com o autor errado, você pode mudar isso.
 <!-- more start -->
+
+
+Vamos lá, eu tenho um projeto com 2 commits.
 {% highlight bash linenos %}
 ➜  git log
 commit d3cf3ac3471b78cdcab7080edf57d34f7b0e9679
@@ -21,7 +24,7 @@ Date:   Tue Nov 20 13:12:27 2012 -0300
     first commit
 {% endhighlight %}
 
-
+Para mudar o autor do último commit, podemos fazer assim:
 {% highlight bash linenos %}
 ➜  git commit --amend --author="Other <other@example.com>"
 [master 5ffb088] second commit
@@ -30,6 +33,7 @@ Date:   Tue Nov 20 13:12:27 2012 -0300
  create mode 100644 LICENSE
 {% endhighlight %}
 
+Nossos commits ficaram assim:
 {% highlight bash linenos %}
 ➜  git log
 commit 5ffb088dd30c0a1f92460f6538d2c1d73c151b95
