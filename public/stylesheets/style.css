@@ -380,39 +380,43 @@ body section article blockquote {
   padding-left: 15px;
   border-left: 3px solid #e75151;
 }
-/* line 104, ../../sass/style.scss */
+/* line 103, ../../sass/style.scss */
+body section article blockquote a {
+  font: 14px/22px normal helvetica, sans-serif;
+}
+/* line 107, ../../sass/style.scss */
 body section article table {
   font-size: 20px;
   margin-bottom: 15px;
 }
-/* line 108, ../../sass/style.scss */
+/* line 111, ../../sass/style.scss */
 body section article table td {
   padding: 5px;
 }
-/* line 113, ../../sass/style.scss */
+/* line 116, ../../sass/style.scss */
 body section article p {
   margin-bottom: 15px;
   text-indent: 40px;
   line-height: 27px;
   font-size: 20px;
 }
-/* line 121, ../../sass/style.scss */
+/* line 124, ../../sass/style.scss */
 body section article a {
   color: #e75151;
 }
-/* line 123, ../../sass/style.scss */
+/* line 126, ../../sass/style.scss */
 body section article a:hover {
   color: #dbd5aa;
 }
-/* line 128, ../../sass/style.scss */
+/* line 131, ../../sass/style.scss */
 body section article header time {
   font-size: 20px;
 }
-/* line 136, ../../sass/style.scss */
+/* line 139, ../../sass/style.scss */
 body #about {
   margin: 0 0 10px 0;
 }
-/* line 138, ../../sass/style.scss */
+/* line 141, ../../sass/style.scss */
 body #about figure {
   margin: 0 30px 10px 0;
   -webkit-border-radius: 80px;
@@ -421,11 +425,11 @@ body #about figure {
   -o-border-radius: 80px;
   border-radius: 80px;
 }
-/* line 141, ../../sass/style.scss */
+/* line 144, ../../sass/style.scss */
 body #about figure img {
   border: 5px #fff solid;
 }
-/* line 146, ../../sass/style.scss */
+/* line 149, ../../sass/style.scss */
 body #about div p {
   line-height: 35px;
   font-size: 30px;
