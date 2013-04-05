@@ -7,16 +7,16 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{% if page.title %} {{ page.title }} {% endif %} </title>
-        <meta name="description" content="Ruby, Rails, Software, Code Design, Architecture, TDD, BDD and more." />
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Facebook -->
-        <meta property="og:title" content="Garulab"/>
+        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %} {{ site.name }}"/>
         <meta property="og:site_name" content="Garulab"/>
-        <meta property="og:url" content="http://garulab.com/index.html"/>
-        <meta property="og:image" content="http://garulab.com/public/images/I.jpg"/>
-        <meta property="og:type" content="blog"/>
-        <meta property="og:description" content="Ruby, Rails, Software, Code Design, Architecture, TDD, BDD and more."/>
+        <meta property="og:url" content="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}"/>
+        <meta property="og:image" content="{{ site.url }}/public/images/I.jpg"/>
+        <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}"/>
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
 
         <!--<link rel="stylesheet"
         href="../public/stylesheets/normalize.min.css">-->
@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="/public/stylesheets/style.css">
         <link rel="alternate" type="application/atom+xml" href="http://garulab.com/feed/index.xml">
         <link rel="author" type="text/plain"  href="http://garulab.com/humans.txt" />
-        <link rel="shortcut icon" href="/favicon.gif" type="image/x-icon" />
+        <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.gif" type="image/x-icon" />
         <script src="/public/javascripts/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>
