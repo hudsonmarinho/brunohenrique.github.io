@@ -12,6 +12,10 @@
 ::-moz-selection {
     background: $colorDefault;
 }
+
+strong {
+  color: $colorTitle;
+}
 body {
   background: $colorBg;
   color: $colorDefault;
