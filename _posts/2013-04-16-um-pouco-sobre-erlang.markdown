@@ -27,12 +27,16 @@ Motorola, CouchDB, RabbitMQ, Ejabbed, entre outros.
 Para quem só está acostumado com programação orientada a objeto(como eu) a linguagem Erlang pode parecer estranha mas ele é bem expresiva (ainda mais quando falamos matemáticamente), exemplo: 
 
 {% highlight erlang linenos %}
+-module(maths).
+-export([factorial/1]).
+-export([fib/1]).
 
--module(fac).
--export([fac/1]).
- 
-fac(0) -> 1
-fac(N) when > 0, is_integer(N) -> N * fac(N -1)
+factorial(0) -> 1;
+factorial(N) -> N * factorial(N - 1).
+
+fib(0) -> 1;
+fib(1) -> 1;
+fib(N) -> fib(N - 1) + fib(N - 2).
  
 {% endhighlight %}
 
