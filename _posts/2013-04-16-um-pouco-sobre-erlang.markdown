@@ -68,4 +68,5 @@ Nem sempre a versão que está nos pacotes do apt-get ou brew são as mais recen
 
 Pretendo fazer mais alguns posts no futuro para consolidar meu conhecimento e documentar meu aprendizado, por enquanto é só isso :)
 
+Referência: [Porque considerar o uso de Erlang no seu próximo projeto](http://www.infoq.com/br/news/2010/02/erlang-proximo-grande-projeto)
 <!-- end more -->
