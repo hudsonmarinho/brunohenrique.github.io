@@ -24,9 +24,9 @@ Atualmente algumas grandes empresas adotaram a linguagem Erlang, como:
 
 Motorola, CouchDB, RabbitMQ, Ejabbed, entre outros.
 
-Para quem só está acostumado com programação orientada a objeto(como eu) a linguagem Erlang pode parecer estranha mas ele é bem expresiva (ainda mais quando falamos matemáticamente), exemplo: 
+Para quem só está acostumado com programação orientada a objeto(como eu) a linguagem Erlang pode parecer estranha mas ele é bem expresiva (ainda mais quando falamos matemáticamente), exemplo:
 
-{% highlight erlang linenos %}
+{% highlight erlang %}
 -module(maths).
 -export([factorial/1]).
 -export([fib/1]).
@@ -37,28 +37,28 @@ factorial(N) -> N * factorial(N - 1).
 fib(0) -> 1;
 fib(1) -> 1;
 fib(N) -> fib(N - 1) + fib(N - 2).
- 
+
 {% endhighlight %}
 
 Agora para começar a brincadeira de verdade precisamos fazer a instalação, vamos lá:
 
-{% highlight bash linenos %}
+{% highlight bash %}
 # Linux
- 
+
 $ sudo apt-get install erlang erlang-doc
- 
+
 # Mac OSX
- 
+
 $ brew install erlang
- 
+
 # Ou via source no site http://www.erlang.org/download.html
- 
+
 $ tar -xzf otp_src_XXXX-X.tar.gz # onde XXXX-X é a versão do Erlang
 $ cd otp_src_XXXX-X
 $ ./configure
 $ make
 $ sudo make install
- 
+
 # Também podemos usar uma solução da Erlang Soluctions https://www.erlang-solutions.com/downloads/download-erlang-otp
 # e por fim temos CEAN(The Comprehensive Erlang Archive Network)
 # http://cean.process-one.net/downloads/
