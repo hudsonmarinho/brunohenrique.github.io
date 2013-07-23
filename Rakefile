@@ -2,7 +2,7 @@ task :default => [:preview]
 
 task :preview do
   puts 'server runing'
-  jekyllPid = Process.spawn({ "DEVELOPMENT_ENV" => "preview" }, 'jekyll --auto')
+  jekyllPid = Process.spawn({ "DEVELOPMENT_ENV" => "preview" }, 'jekyll server')
   comapssPid = Process.spawn('compass watch')
   guardPid = Process.spawn('guard')
   rackupPid = Process.spawn("rackup --port 4000")

@@ -296,33 +296,39 @@ strong {
 }
 
 /* line 19, ../../sass/style.scss */
+img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* line 23, ../../sass/style.scss */
 body {
   background: #f8f8f8;
   color: #191919;
   font-family: PTSansNarrow;
 }
-/* line 26, ../../sass/style.scss */
+/* line 30, ../../sass/style.scss */
 body a, body:visited {
   text-decoration: none;
   color: #e75151;
   font-family: PTSansNarrow;
 }
-/* line 32, ../../sass/style.scss */
+/* line 36, ../../sass/style.scss */
 body a:hover, body:visited:hover {
   color: #dbd5aa;
 }
-/* line 36, ../../sass/style.scss */
+/* line 40, ../../sass/style.scss */
 body h2 {
   margin: 0 0 20px 0;
   font-size: 30px;
 }
-/* line 43, ../../sass/style.scss */
+/* line 47, ../../sass/style.scss */
 body header {
   width: 960px;
   min-height: 80px;
   margin: 0 0 50px 0;
 }
-/* line 47, ../../sass/style.scss */
+/* line 51, ../../sass/style.scss */
 body header section {
   width: 215px;
   height: 72px;
@@ -330,24 +336,24 @@ body header section {
   font-family: PTSansNarrowBold;
   font-size: 70px;
 }
-/* line 55, ../../sass/style.scss */
+/* line 59, ../../sass/style.scss */
 body header section h1 {
   background: url(../images/logo.png) right no-repeat;
 }
-/* line 57, ../../sass/style.scss */
+/* line 61, ../../sass/style.scss */
 body header section h1 span {
   display: inline-block;
   height: 72px;
 }
-/* line 64, ../../sass/style.scss */
+/* line 68, ../../sass/style.scss */
 body header nav ul {
   line-height: 80px;
 }
-/* line 66, ../../sass/style.scss */
+/* line 70, ../../sass/style.scss */
 body header nav ul li {
   display: inline;
 }
-/* line 68, ../../sass/style.scss */
+/* line 72, ../../sass/style.scss */
 body header nav ul li a, body header nav ul li:visited {
   padding: 10px 20px;
   color: #333333;
@@ -364,18 +370,18 @@ body header nav ul li a, body header nav ul li:visited {
   transition: all 1s;
   transition: all 1s ease-in-out;
 }
-/* line 81, ../../sass/style.scss */
+/* line 85, ../../sass/style.scss */
 body header nav ul li a:hover, body header nav ul li:visited:hover {
   color: #f8f8f8;
   background: #e75151;
 }
-/* line 92, ../../sass/style.scss */
+/* line 96, ../../sass/style.scss */
 body section article h3 {
   margin-bottom: 15px;
   font-size: 22px;
   font-weight: bold;
 }
-/* line 99, ../../sass/style.scss */
+/* line 103, ../../sass/style.scss */
 body section article blockquote {
   color: #454545;
   font: 14px/22px normal helvetica, sans-serif;
@@ -385,43 +391,43 @@ body section article blockquote {
   padding-left: 15px;
   border-left: 3px solid #e75151;
 }
-/* line 107, ../../sass/style.scss */
+/* line 111, ../../sass/style.scss */
 body section article blockquote a {
   font: 14px/22px normal helvetica, sans-serif;
 }
-/* line 111, ../../sass/style.scss */
+/* line 115, ../../sass/style.scss */
 body section article table {
   font-size: 20px;
   margin-bottom: 15px;
 }
-/* line 115, ../../sass/style.scss */
+/* line 119, ../../sass/style.scss */
 body section article table td {
   padding: 5px;
 }
-/* line 120, ../../sass/style.scss */
+/* line 124, ../../sass/style.scss */
 body section article p {
   margin-bottom: 15px;
   text-indent: 40px;
   line-height: 27px;
   font-size: 20px;
 }
-/* line 128, ../../sass/style.scss */
+/* line 132, ../../sass/style.scss */
 body section article a {
   color: #e75151;
 }
-/* line 130, ../../sass/style.scss */
+/* line 134, ../../sass/style.scss */
 body section article a:hover {
   color: #dbd5aa;
 }
-/* line 135, ../../sass/style.scss */
+/* line 139, ../../sass/style.scss */
 body section article header time {
   font-size: 20px;
 }
-/* line 143, ../../sass/style.scss */
+/* line 147, ../../sass/style.scss */
 body #about {
   margin: 0 0 10px 0;
 }
-/* line 145, ../../sass/style.scss */
+/* line 149, ../../sass/style.scss */
 body #about figure {
   margin: 0 30px 10px 0;
   -webkit-border-radius: 80px;
@@ -430,11 +436,11 @@ body #about figure {
   -o-border-radius: 80px;
   border-radius: 80px;
 }
-/* line 148, ../../sass/style.scss */
+/* line 152, ../../sass/style.scss */
 body #about figure img {
   border: 5px #fff solid;
 }
-/* line 153, ../../sass/style.scss */
+/* line 157, ../../sass/style.scss */
 body #about div p {
   line-height: 35px;
   font-size: 30px;
@@ -675,7 +681,7 @@ body #about div p {
 }
 /* line 76, ../../sass/embed.scss */
 .gist-syntax .s {
-  color: #d14;
+  color: #dd1144;
 }
 /* line 77, ../../sass/embed.scss */
 .gist-syntax .n {
@@ -683,7 +689,7 @@ body #about div p {
 }
 /* line 78, ../../sass/embed.scss */
 .gist-syntax .na {
-  color: #008080;
+  color: teal;
 }
 /* line 79, ../../sass/embed.scss */
 .gist-syntax .nb {
@@ -700,7 +706,7 @@ body #about div p {
 }
 /* line 82, ../../sass/embed.scss */
 .gist-syntax .ni {
-  color: #800080;
+  color: purple;
 }
 /* line 83, ../../sass/embed.scss */
 .gist-syntax .ne {
@@ -718,11 +724,11 @@ body #about div p {
 }
 /* line 86, ../../sass/embed.scss */
 .gist-syntax .nt {
-  color: #000080;
+  color: navy;
 }
 /* line 87, ../../sass/embed.scss */
 .gist-syntax .nv {
-  color: #008080;
+  color: teal;
 }
 /* line 88, ../../sass/embed.scss */
 .gist-syntax .ow {
@@ -751,35 +757,35 @@ body #about div p {
 }
 /* line 94, ../../sass/embed.scss */
 .gist-syntax .sb {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 95, ../../sass/embed.scss */
 .gist-syntax .sc {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 96, ../../sass/embed.scss */
 .gist-syntax .sd {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 97, ../../sass/embed.scss */
 .gist-syntax .s2 {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 98, ../../sass/embed.scss */
 .gist-syntax .se {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 99, ../../sass/embed.scss */
 .gist-syntax .sh {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 100, ../../sass/embed.scss */
 .gist-syntax .si {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 101, ../../sass/embed.scss */
 .gist-syntax .sx {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 102, ../../sass/embed.scss */
 .gist-syntax .sr {
@@ -791,7 +797,7 @@ body #about div p {
 }
 /* line 104, ../../sass/embed.scss */
 .gist-syntax .ss {
-  color: #2AA198 !important;
+  color: #2aa198 !important;
 }
 /* line 105, ../../sass/embed.scss */
 .gist-syntax .bp {
@@ -799,15 +805,15 @@ body #about div p {
 }
 /* line 106, ../../sass/embed.scss */
 .gist-syntax .vc {
-  color: #008080;
+  color: teal;
 }
 /* line 107, ../../sass/embed.scss */
 .gist-syntax .vg {
-  color: #008080;
+  color: teal;
 }
 /* line 108, ../../sass/embed.scss */
 .gist-syntax .vi {
-  color: #008080;
+  color: teal;
 }
 /* line 109, ../../sass/embed.scss */
 .gist-syntax .il {
