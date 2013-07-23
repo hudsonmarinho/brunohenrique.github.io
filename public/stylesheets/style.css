@@ -414,20 +414,21 @@ body section article p {
 /* line 132, ../../sass/style.scss */
 body section article a {
   color: #e75151;
+  text-decoration: underline;
 }
-/* line 134, ../../sass/style.scss */
+/* line 135, ../../sass/style.scss */
 body section article a:hover {
   color: #dbd5aa;
 }
-/* line 139, ../../sass/style.scss */
+/* line 140, ../../sass/style.scss */
 body section article header time {
   font-size: 20px;
 }
-/* line 147, ../../sass/style.scss */
+/* line 148, ../../sass/style.scss */
 body #about {
   margin: 0 0 10px 0;
 }
-/* line 149, ../../sass/style.scss */
+/* line 150, ../../sass/style.scss */
 body #about figure {
   margin: 0 30px 10px 0;
   -webkit-border-radius: 80px;
@@ -436,11 +437,11 @@ body #about figure {
   -o-border-radius: 80px;
   border-radius: 80px;
 }
-/* line 152, ../../sass/style.scss */
+/* line 153, ../../sass/style.scss */
 body #about figure img {
   border: 5px #fff solid;
 }
-/* line 157, ../../sass/style.scss */
+/* line 158, ../../sass/style.scss */
 body #about div p {
   line-height: 35px;
   font-size: 30px;

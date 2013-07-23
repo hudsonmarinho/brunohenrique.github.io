@@ -131,6 +131,7 @@ body {
       }
       a {
         color: $colorTitle;
+        text-decoration: underline;
         &:hover {
           color: $colorHover;
         }
