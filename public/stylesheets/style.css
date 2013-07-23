@@ -296,39 +296,33 @@ strong {
 }
 
 /* line 19, ../../sass/style.scss */
-img {
-  width: 100%;
-  margin-top: 15px;
-}
-
-/* line 23, ../../sass/style.scss */
 body {
   background: #f8f8f8;
   color: #191919;
   font-family: PTSansNarrow;
 }
-/* line 30, ../../sass/style.scss */
+/* line 26, ../../sass/style.scss */
 body a, body:visited {
   text-decoration: none;
   color: #e75151;
   font-family: PTSansNarrow;
 }
-/* line 36, ../../sass/style.scss */
+/* line 32, ../../sass/style.scss */
 body a:hover, body:visited:hover {
   color: #dbd5aa;
 }
-/* line 40, ../../sass/style.scss */
+/* line 36, ../../sass/style.scss */
 body h2 {
   margin: 0 0 20px 0;
   font-size: 30px;
 }
-/* line 47, ../../sass/style.scss */
+/* line 43, ../../sass/style.scss */
 body header {
   width: 960px;
   min-height: 80px;
   margin: 0 0 50px 0;
 }
-/* line 51, ../../sass/style.scss */
+/* line 47, ../../sass/style.scss */
 body header section {
   width: 215px;
   height: 72px;
@@ -336,24 +330,24 @@ body header section {
   font-family: PTSansNarrowBold;
   font-size: 70px;
 }
-/* line 59, ../../sass/style.scss */
+/* line 55, ../../sass/style.scss */
 body header section h1 {
   background: url(../images/logo.png) right no-repeat;
 }
-/* line 61, ../../sass/style.scss */
+/* line 57, ../../sass/style.scss */
 body header section h1 span {
   display: inline-block;
   height: 72px;
 }
-/* line 68, ../../sass/style.scss */
+/* line 64, ../../sass/style.scss */
 body header nav ul {
   line-height: 80px;
 }
-/* line 70, ../../sass/style.scss */
+/* line 66, ../../sass/style.scss */
 body header nav ul li {
   display: inline;
 }
-/* line 72, ../../sass/style.scss */
+/* line 68, ../../sass/style.scss */
 body header nav ul li a, body header nav ul li:visited {
   padding: 10px 20px;
   color: #333333;
@@ -370,10 +364,15 @@ body header nav ul li a, body header nav ul li:visited {
   transition: all 1s;
   transition: all 1s ease-in-out;
 }
-/* line 85, ../../sass/style.scss */
+/* line 81, ../../sass/style.scss */
 body header nav ul li a:hover, body header nav ul li:visited:hover {
   color: #f8f8f8;
   background: #e75151;
+}
+/* line 92, ../../sass/style.scss */
+body section article img {
+  width: 100%;
+  margin-top: 15px;
 }
 /* line 96, ../../sass/style.scss */
 body section article h3 {
