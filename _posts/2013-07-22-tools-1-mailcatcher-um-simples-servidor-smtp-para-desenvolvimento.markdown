@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Tools [#1] - MailCatcher, um simples servidor smtp para desenvolvimento
+title: Tools [#1] - MailCatcher, um simples servidor SMTP para desenvolvimento
 date: 2013-07-22
 description:
 categories: tools tip pt
 ---
 
 <!-- more start -->
-Geralmente quando estamos desenvolvendo aplicações que necessitam do envio de email precisamos configurar um servidor smtp localmente ou só testar no ambiente de produção (por favor, não façam isso).
+Geralmente quando estamos desenvolvendo aplicações que necessitam do envio de email precisamos configurar um servidor SMTP (Simple Mail Transfer Protocol) localmente ou só testar no ambiente de produção (por favor, não façam isso).
 
 Essa situação é bem comum em PHP e ainda mais quando não usamos framework algum. Com o Ruby on Rails a coisa muda um pouco de figura. Já que o Rails ultiliza 3 ambientes diferentes (test, development e production), podemos fazer configurações especificas para cada um.
 
