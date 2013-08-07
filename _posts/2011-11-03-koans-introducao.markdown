@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Koans – introdução
+title: Koans – Introdução
 date: 2011-11-03
 description: O koan é uma maneira utilizada desde a antiguidade pelos mestres orientais para transmitir seus ensinamentos aos seus discípulos, visando abrir os olhos do indivíduo à sua própria consciência. Um dos primeiros koans de que se tem conhecimento nos indaga “Qual a imagem do seu rosto antes de nascer?” “Você consegue vê-la?”. Essa indagação se propõe a exercitar a mente, a buscar a resposta. Ao aceitar o koan, passamos a questionar tudo o que até então aceitaríamos como impossibilidade lógica, como verdade absoluta, e passamos a compreender que a maneira pela qual enxergamos as coisas ao nosso redor nem sempre é correta ou única.
 categories: koans pt
