@@ -118,5 +118,6 @@ Aqui é uma palestra feita pelo Carlos Souza (também conhecido como Caike) da E
 
 [http://www.infoq.com/ruby/](http://www.infoq.com/ruby/)
 
-Tentei focar apenas na galera que está começando, caso contrário a lista tenderia ao infinito, mas a ideia do post é que ele possa ser colaborativo.
+Tentei focar apenas na galera que está começando, caso contrário a lista tenderia ao infinito, mas a ideia do post é que ele possa ser colaborativo, então sintam-se à vontade
+para enviar sugestões nos comentários ou enviar um pull request para [brunohenrique.github.io](https://github.com/brunohenrique/brunohenrique.github.io).
 <!-- end more -->
