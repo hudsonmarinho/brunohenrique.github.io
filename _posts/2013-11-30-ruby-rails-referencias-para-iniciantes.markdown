@@ -100,7 +100,7 @@ eBook extremamente recomendado para quem está começando. A didática do Michae
 
 [http://rubykoans.com/](http://rubykoans.com/)
 
-Para quem gosta de entender como algumas coisas acontecem “por baixo do panos” o Ruby Hacking Guide é uma ótima pedida: [http://ruby-hacking-guide.github.io/](http://ruby-hacking-guide.github.io/)
+Para quem gosta de entender como algumas coisas acontecem “por baixo dos panos” o Ruby Hacking Guide é uma ótima pedida: [http://ruby-hacking-guide.github.io/](http://ruby-hacking-guide.github.io/)
 
 Na Pragmatic Programmer temos muitos livros legais sobre Ruby (todos em inglês): [http://pragprog.com/categories/ruby_and_rails](http://pragprog.com/categories/ruby_and_rails)
 
