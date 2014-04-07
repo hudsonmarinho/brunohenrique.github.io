@@ -9,7 +9,7 @@ categories: koans pt
 ###A Filosofia dos Koans
 <!-- end more -->
 O koan é uma maneira utilizada desde a antiguidade pelos mestres orientais para transmitir seus ensinamentos aos seus discípulos, visando abrir os olhos do indivíduo à sua própria consciência. Um dos primeiros koans de que se tem conhecimento nos indaga “Qual a imagem do seu rosto antes de nascer?” “Você consegue vê-la?”. Essa indagação se propõe a exercitar a mente, a buscar a resposta. Ao aceitar o koan, passamos a questionar tudo o que até então aceitaríamos como impossibilidade lógica, como verdade absoluta, e passamos a compreender que a maneira pela qual enxergamos as coisas ao nosso redor nem sempre é correta ou única.
-O koan força o indivíduo a assumir uma atitude inquisitória até praticamente chegar à beira de um precipício mental. Propõe colocar a mente em um estado de total esforço até encontrar a resposta. Ao abandonar a racionalidade, transformam-nos na própria questão, tornando-nos capazes de ver a nítida imagem da “face original”.
+O koan força o indivíduo a assumir uma atitude inquisitória até praticamente chegar à beira de um precipício mental. Propõe colocar a mente em um estado de total esforço até encontrar a resposta. Ao abandonar a racionalidade, transformam-nos na própria questão, tornando-nos capazes de ver a nítida imagem da “[face original](https://en.wikipedia.org/wiki/Original_face)”.
 <!-- more start -->
 ###O que isso tem a ver com programação?
 
