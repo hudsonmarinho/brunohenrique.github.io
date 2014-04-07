@@ -23,7 +23,4 @@ O conceito de aprendizado gradual não é novo. Na década de 1960 a 70, a inova
 Este formato era bem mais simples de ser seguido, isso então forneceu uma base para que pudéssemos pegar ideias complexas e dividir  em varias ideias menos complexas, dessa maneira vimos que também era um ótima forma de ensinar sintaxe e detalhes de varias linguagens. E se prestarmos atenção a ideia de propor uma verdade e em seguida verificar a sua veracidade, é a essência de um teste. Mais especificamente os famosos e clássicos testes unitários.
 Pretendo fazer  mais alguns posts mostrando o koans na prática, comecei com esse porque não queria começar a falar de uma coisa sem antes falar um pouco de suas origens.Esse post contem alguns resumos de meus estudos e algumas traduções de artigos sobre o assunto.
 Abordarei os koans em algumas linguagens (ruby, javascript e python), mas saiba que esse mesmo conceito se aplica as outras linguagens.
-
->"We are what we think. All that we are arises with our thoughts. With our thoughts, we make our world." - Buda
-referências: [http://sett.ociweb.com/](http://sett.ociweb.com/), [http://www.clinicacomciencia.com/](http://www.clinicacomciencia.com/)
 <!-- end more -->
