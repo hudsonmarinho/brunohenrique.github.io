@@ -1,73 +1,26 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.title %} {{ page.title }} {% endif %} </title>
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hi :)</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Kaizen</h1>
+        <ul>
+          <li><a href="#">Archive</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <!-- Facebook -->
-        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %} {{ site.name }}"/>
-        <meta property="og:site_name" content="Garulab"/>
-        <meta property="og:url" content="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}"/>
-        <meta property="og:image" content="{{ site.url }}/public/images/I.jpg"/>
-        <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}"/>
-        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    <main>
+      {{ content }}
+    </main>
 
-        <!--<link rel="stylesheet"
-        href="../public/stylesheets/normalize.min.css">-->
-        <link rel="stylesheet" href="/public/stylesheets/reset.css">
-        <link rel="stylesheet" href="/public/stylesheets/style.css">
-        <link rel="alternate" type="application/atom+xml" href="http://garulab.com/feed/index.xml">
-        <link rel="author" type="text/plain"  href="http://garulab.com/humans.txt" />
-        <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.gif" type="image/x-icon" />
-        <script src="/public/javascripts/vendor/modernizr-2.6.1.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-        <div class="wrapper center">
-            <header>
-                <section class="pull-left">
-                    <h1><span>Garu</span></h1>
-                </section>
-                <nav class="pull-right">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/articles">Articles</a></li>
-                        <!--<li><a href="#">Projects</a></li>-->
-                        <li><a href="/about">About</a></li>
-                        <li><a href="http://feeds.feedburner.com/garulab/eQzY">Feeds</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <section class="content">
-                {{ content }}
-            </section>
-            <section id="footer">
-                <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Garulab</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://garulab.com" property="cc:attributionName" rel="cc:attributionURL">Bruno Henrique - Garu</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://garulab.com" rel="dct:source">http://garulab.com</a>.
-                <a href="http://smallactsmanifesto.org" title="Small Acts Manifesto"><img src="http://smallactsmanifesto.org/media/images/smallacts-badge-80x15.png" style="border: none;" alt="Small Acts Manifesto" /></a>
-                <a href="https://plus.google.com/112449806333471435384?rel=author">Bruno Henrique - Garu</a>
-            </section>
-        </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../public/javascripts/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-
-        <script src="/public/javascripts/plugins.js"></script>
-        <script src="/public/javascripts/main.js"></script>
-        <script>
-            var _gaq=[['_setAccount','UA-21169559-4'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-
-    </body>
+    <footer>
+    </footer>
+  </body>
 </html>
-    </body>
-</html>
+

@@ -4,10 +4,10 @@ title: Garulab
 description: Ruby, Rails, Software, Code Design, Architecture, TDD, BDD and more.
 ---
 {% for post in site.posts %}
-    <article class="post">
-        <header class="post-header">
-        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>{{ post.date | date:"%Y.%m.%d" }}</time>
-        </header>
-    </article>
+<article>
+  <header>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>{{ post.date | date:"%Y.%m.%d" }}</time>
+  </header>
+</article>
 {% endfor %}
