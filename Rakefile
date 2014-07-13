@@ -2,16 +2,14 @@ task :default => [:preview]
 
 task :preview do
   puts 'server runing'
-  jekyllPid = Process.spawn({ "DEVELOPMENT_ENV" => "preview" }, 'jekyll server')
-  comapssPid = Process.spawn('compass watch')
-  guardPid = Process.spawn('guard')
-  rackupPid = Process.spawn("rackup --port 4000")
+  jekyll_pid = Process.spawn('jekyll serve --watch')
+  sass_pid = Process.spawn('sass --watch _sass:public/stylesheets')
 
-  trap("INT") do
-    [jekyllPid, comapssPid, guardPid, rackupPid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+  trap('INT') do
+    [jekyll_pid, sass_pid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
     exit 0
   end
 
-  [jekyllPid, comapssPid, guardPid, rackupPid].each { |pid| Process.wait(pid) }
+  [jekyll_pid, sass_pid].each { |pid| Process.wait(pid) }
 end
 
