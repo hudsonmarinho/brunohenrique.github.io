@@ -7,7 +7,7 @@ description: Ruby, Rails, Software, Code Design, Architecture, TDD, BDD and more
     <article class="post">
         <header class="post-header">
         <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>{{ post.date | date:"%Y.%m.%d" }}</time>
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>{{ post.date | date:"%Y.%m.%d" }}{% if post.update %} | updated: {{ post.update | update:"%Y.%m.%d" }}{% endif %}</time>
         </header>
     </article>
 {% endfor %}
