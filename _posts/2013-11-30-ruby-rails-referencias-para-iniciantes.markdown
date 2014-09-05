@@ -27,6 +27,10 @@ Post - um pouco extenso, mas bastante didático - falando sobre as principais mu
 
 3 screencasts feitos pelo Lucas Cáton, 1 sobre Ruby e 2 sobre Rails: [http://blog.lucascaton.com.br/index.php/2013/05/21/screencasts-de-ruby-on-rails-para-iniciantes/](http://blog.lucascaton.com.br/index.php/2013/05/21/screencasts-de-ruby-on-rails-para-iniciantes/)
 
+Quer começar desenvolver com Rails no Linux (mais precisamente no Ubuntu) e não sabe por onde começar? Recomendo esse post que mostra o setup básico de um ambiente no pinguim: [http://blog.glaucocustodio.com/2012/08/23/instalando-e-configurando-ambiente-ruby-on-rails-no-linux/](http://blog.glaucocustodio.com/2012/08/23/instalando-e-configurando-ambiente-ruby-on-rails-no-linux/)
+
+Pra quem está começando com Rails e tudo ainda é novo, fica a dica: [http://blog.glaucocustodio.com/2012/10/06/primeiro-projeto-com-ruby-on-rails/](http://blog.glaucocustodio.com/2012/10/06/primeiro-projeto-com-ruby-on-rails/)
+
 Uma palestra do Lucas Cáton sobre RubyOnRails (Rails, para os íntimos) direcionada para a galera que vem do Java: [http://blog.lucascaton.com.br/index.php/2012/02/12/minha-palestra-sobre-ruby-on-rails-no-cafe-com-java/](http://blog.lucascaton.com.br/index.php/2012/02/12/minha-palestra-sobre-ruby-on-rails-no-cafe-com-java/)
 
 Para quem está começando no Rails e depara-se com o Asset Pipeline, temos uma ótima introdução feita pelo Akita: [http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes](http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes) / [http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes-parte-2](http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes-parte-2)
