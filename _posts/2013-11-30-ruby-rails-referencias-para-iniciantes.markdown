@@ -2,6 +2,7 @@
 layout: post
 title: Ruby/Rails - Referências para iniciantes
 date: 2013-11-30
+update: 2014-09-05
 description:
 categories: tip ruby rails
 ---
