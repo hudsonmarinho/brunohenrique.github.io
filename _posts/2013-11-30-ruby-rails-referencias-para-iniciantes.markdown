@@ -33,6 +33,8 @@ Pra quem está começando com Rails e tudo ainda é novo, fica a dica: [http://b
 
 Uma palestra do Lucas Cáton sobre RubyOnRails (Rails, para os íntimos) direcionada para a galera que vem do Java: [http://blog.lucascaton.com.br/index.php/2012/02/12/minha-palestra-sobre-ruby-on-rails-no-cafe-com-java/](http://blog.lucascaton.com.br/index.php/2012/02/12/minha-palestra-sobre-ruby-on-rails-no-cafe-com-java/)
 
+Aprendendo Ruby e Rails, Livros e Guias do Fábio Akita: [http://www.akitaonrails.com/2014/07/13/aprendendo-ruby-e-rails-livros-e-guias](http://www.akitaonrails.com/2014/07/13/aprendendo-ruby-e-rails-livros-e-guias)
+
 Para quem está começando no Rails e depara-se com o Asset Pipeline, temos uma ótima introdução feita pelo Akita: [http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes](http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes) / [http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes-parte-2](http://www.akitaonrails.com/2012/07/01/asset-pipeline-para-iniciantes-parte-2)
 
 Akita dando um puxão de orelha em algumas falhas cometidas em projetos Rails: [http://www.akitaonrails.com/2013/03/24/quais-sao-algumas-das-piores-praticas-para-aplicacoes-ruby-on-rails--2](http://www.akitaonrails.com/2013/03/24/quais-sao-algumas-das-piores-praticas-para-aplicacoes-ruby-on-rails--2)
