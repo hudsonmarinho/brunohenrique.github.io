@@ -4,7 +4,7 @@ layout: default
 <article class="post">
     <header class="post-header">
         <h2 class="title">{{ page.title }}</h2>
-        <time datetime="{{ page.date | date: '%Y.%m.%d' }}" pubdate>{{ page.date | date:"%Y.%m.%d" }}</time>
+        <time datetime="{{ page.date | date: '%Y.%m.%d' }}" pubdate>{{ page.date | date:"%Y.%m.%d" }}{% if page.update %} | updated: {{ page.update | update:"%Y.%m.%d" }}{% endif %}</time>
     </header>
     {{ content }}
     <div class="social">
